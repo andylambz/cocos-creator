@@ -53,7 +53,7 @@
     - Position: (0, 0)
     - ContentSize: 100 x 100
     - Type: Simple
-    - SpriteFrame: để trống (sẽ gán bằng code sau)
+    - Sprite Frame: để trống (sẽ gán bằng code sau)
 ```
 
 > Đây là nơi bạn sẽ gán hình ảnh kẹo khi quay slot
