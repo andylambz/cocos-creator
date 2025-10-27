@@ -1,6 +1,4 @@
 
-
-```markdown
 # 🛠️ Hướng Dẫn Sử Dụng Công Cụ XYZ
 
 > Phiên bản: 1.0  
@@ -104,5 +102,3 @@ A: Dùng cú pháp `--filter "status=active,type=premium"`
 - 🌐 Website: [https://xyztool.com](https://xyztool.com)
 
 ---
-```
-
