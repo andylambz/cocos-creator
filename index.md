@@ -6,7 +6,7 @@
 
 ## Slot Game
 
-- [Tạo project](./init-project-côcs.md)
+- [Tạo project](./init-project-cocos.md)
 
 
 ## 📦 Phụ lục
