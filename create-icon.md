@@ -49,6 +49,8 @@
 - Cocos Creator sẽ tạo một Prefab CandyNode.prefab
 ```
 
+> Sau khi tạo prefab xong có thể xóa các node icon đi không cần giữ lại
+
 ```
 - Lặp lại các bước để tạo prefabe cho các icon còn lại
 - Và ta đã có 3 prefab tương ứng cho 3 icon
