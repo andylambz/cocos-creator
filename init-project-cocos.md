@@ -14,7 +14,7 @@
 
 ![cocos-init-project-empty2D](./assets/photos/init-project/cocos-init-project-empty2D.png)
 
-![cocos-init-project-empty2D](./assets/photos/init-project/cocos-empty2D-main-scene.png)
+![cocos-empty2D-main-scene](./assets/photos/init-project/cocos-empty2D-main-scene.png)
 
 ## Tạo Main.scene
 ```
@@ -23,4 +23,4 @@
 3. Save
 ```
 
-![cocos-init-project-empty2D](./assets/photos/init-project/cocos-main-scene.png)
+![cocos-main-scene](./assets/photos/init-project/cocos-main-scene.png)
