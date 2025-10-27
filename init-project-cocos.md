@@ -9,6 +9,8 @@ CHọn Projects > New Project > Templates > Empty(2D) > Create And Open
 
 > `Location`: Chọn thư mục chứa project
 
+![Cocos Dashboard]{./assets/photos/init-project}
+
 ## Tạo Main.scene
 ```
 Bấm Ctrl + s
