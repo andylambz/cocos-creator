@@ -121,3 +121,6 @@ export class SlotGameScript extends Component {
   - Target: Kéo node GameManager vào đây
   - Component: Chọn SweetSlotGame
   - Handler: Chọn hàm spin)
+
+***
+[Back](index.md)

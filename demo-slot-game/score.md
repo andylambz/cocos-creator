@@ -83,3 +83,7 @@ export class SweetSlotGame extends Component {
 ![create-score-label](assets/photos/score-label/create-score-label.png)
 
 ![alt text](assets/run-app.png)
+
+***
+
+[Back](index.md)

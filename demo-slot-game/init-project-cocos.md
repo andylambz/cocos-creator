@@ -24,3 +24,7 @@
 ```
 
 ![cocos-main-scene](./assets/photos/init-project/cocos-main-scene.png)
+
+***
+
+[Back](index.md)

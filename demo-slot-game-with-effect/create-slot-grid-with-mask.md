@@ -59,4 +59,7 @@ SlotGrid (Horizontal Layout)
 
 - Có thể duplicate từ Column0
 
-![create-slot-grid-and-mask](demo-slot-game-with-effect/photos/create-slot-grid-and-mask.png)
+![create-slot-grid-and-mask](photos/create-slot-grid-and-mask.png)
+
+***
+[Back](index.md)

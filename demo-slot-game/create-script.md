@@ -57,3 +57,7 @@ const cell = this.slotCells[i];
 ```
 
 ![create-node-game-manager](./assets/photos/create-script/create-node-game-manager.png)
+
+***
+
+[Back](index.md)
