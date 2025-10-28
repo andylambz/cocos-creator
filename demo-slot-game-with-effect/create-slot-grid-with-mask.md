@@ -1,6 +1,5 @@
-# Tạo SlotGrid và Mask
 
-## Tạo SlotGrid và Mask theo cấu trúc như sau
+#### Tạo SlotGrid và Mask theo cấu trúc như sau
 
 ```
 SlotGrid (Horizontal Layout)
@@ -18,48 +17,54 @@ SlotGrid (Horizontal Layout)
 ├── Column2
 ```
 
-## Thiết lập từng phần
+#### Thiết lập từng phần
 
-### Tạo node SlotGrid
+##### Tạo node SlotGrid và gắn layout
 
-- Chọn SLotGameScene > Right click Canvas > Create > Empty Node
-- Gắn Layout > Chọn Add component > Create > UI > Layout
-  - Type: HORIZONTAL
-  - Resize Mode: None
-  - Horizontal Direction: LEFT_TO_RIGHT
+Right click Canvas > Create > Empty Node
+- Name: SlotGrid
 
-### Tạo node Column0
+Add Component > Create > UI > Layout
+- Type: HORIZONTAL
+- Resize Mode: None
+- Horizontal Direction: LEFT_TO_RIGHT
 
-- Right click SlotGrid > Create > Empty Node
-- Kích thước: width = 100, height = 300 (3 biểu tượng × 100px)
+##### Tạo node ColumnX
+
+Right click SlotGrid > Create > Empty Node
+- Name: ColumnX
+- Content Size: width = 100, height = 300 (3 biểu tượng × 100px)
 - Không cần Layout
 
-### Tạo Mask
+##### Tạo Mask
 
-- Right click Column0 > Create > 2D Object > Mask
-  - Type: GRAPHICS_RECT
-    • Content Sizee: width = 100, height = 300
-    • Đặt ở giữa ColumnX
+Right click ColumnX > Create > 2D Object > Mask
+- Name: Mask
+- Type: GRAPHICS_RECT
+- Content Size: width = 100, height = 300
 
-### Tạo SymbolContainer
+##### Tạo SymbolContainer và gắn layout
 
-- Right click Mask > Create > Empty Node
-  - Name: SymbolContainer
-- Gắn Layout, Chọn Add Component > UI > Layout
+Right click Mask > Create > Empty Node
+- Name: SymbolContainer
+
+Add Component > UI > Layout
   - Type: VERTICAL
   - Resize Mode: CONTAINER
   - Vertical Direction: TOP_TO_BOTTOM
 
-### Thêm sumbol vào SymbolContainer
+##### Thêm symbol vào SymbolContainer
 
 - Kéo prefabs/SlotCell (đã tạo ở demo trước) vào SymbolContainer
-- Kéo 7 hoặc 9 symbol vào
+- Kéo 9 symbol vào
 
-### Tiếp tục làm tương tự cho các column còn lại
-
-- Có thể duplicate từ Column0
+> Làm tương tự cho các column còn lại hoặc duplicate Column0
 
 ![create-slot-grid-and-mask](photos/create-slot-grid-and-mask.png)
+
+#### Tạo ScoreLabel và SpinButton
+
+Làm như demo slot game
 
 ***
 [Back](index.md)

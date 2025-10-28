@@ -1,18 +1,16 @@
-# Viết script
 
-> Tạo SpinButton và ScoreLabel và GameManager như demo trước
 
-## Tạo SlotGameScript.ts
+##### Tạo script
 
-- Right assets/scripts > Create Typescript
-  - Name SlotGameScript.ts
+Right click assets/scripts > Create Typescript
+- Name **SlotGameWithEffectScript.ts**
 
 ```Typescript
 import { _decorator, Component, instantiate, Label, Node, Prefab, tween, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
-@ccclass('SlotGameScript')
-export class SlotGameScript extends Component {
+@ccclass('SlotGameWithEffectScript')
+export class SlotGameWithEffectScript extends Component {
 
     @property(Node)
     scoreLabel: Node = null;
@@ -108,19 +106,26 @@ export class SlotGameScript extends Component {
 
 ```
 
-## Tạo GameManager
+##### Tạo GameManager
 
-- Right click Canvas > Create > Empty Node
+Right click Canvas > Create > Empty Node
   - Name: GameManager
-- Add compenent SlotGameScript > Add component > Custom Script > SlotGameScript
-  - Kéo các node và prefab và các biến tương ứng
 
-## Kết nối sự kiện spin với SpinButton
+Add component > Custom Script > **SlotGameWithEffectScript**
+- Score Label: kéo node ScoreLabel vào
+- Symbols: kéo 3 biểu tượng keo vào (prefab)
+- ColumnsL kéo 3 ColumnX vào
 
-- Chọn SpinButton > Click Events > thêm 1 event (nhập 1 vào ô), ô có 1 array, > array [0]
-  - Target: Kéo node GameManager vào đây
-  - Component: Chọn SweetSlotGame
-  - Handler: Chọn hàm spin)
+##### Kết nối sự kiện spin với SpinButton
+
+Chọn SpinButton > Click Events > thêm 1 event cho array > array [0]
+- Target: Kéo node GameManager vào đây
+- Component: Chọn **SlotGameWithEffectScript**
+- Handler: Chọn hàm spin
+
+##### Run
+
+Chạy thử demo
 
 ***
 [Back](index.md)

@@ -1,9 +1,8 @@
-# Tạo slot game scene
 
-## Tạo scene SlotGameScene
+##### Tạo scene mới
 
 Trong Assets > Right click assets > Create > Scene
-- Name: SlotGameScene
+- Name: **SlotGameWithEffectScene**
 
 ![create slot game scene](photos/create-slot-gamescene.png)
 
