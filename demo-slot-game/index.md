@@ -2,10 +2,10 @@
 
 ## Description
 
-Tạo một game quay số đơn giản, step by step
-Dành cho người mới bắt đầu với Cocos Creator
-Làm quen với các tính năng, thuộc tính cơ bản
-Hiểu về Scene, Component, Prefab, Sprice, Button, Label, Script
+Tạo một game quay số đơn giản, step by step.
+Dành cho người mới bắt đầu với Cocos Creator.
+Làm quen với các tính năng, thuộc tính cơ bản.
+Hiểu về Scene, Component, Prefab, Sprice, Button, Label, Script.
 
 ## Index
 
