@@ -15,9 +15,12 @@ Hướng dẫn làm game với cocos creator
 
 ## Index
 
-1. [Demo slot game](./index.md)
+1. [Demo slot game](./demo-slot-game/index.md)
 
 ## Changed Log
+
+2025-10-2025
+- Create demo slot game
 
 ## Contact
 

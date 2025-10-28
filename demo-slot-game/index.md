@@ -1,5 +1,12 @@
 # Demo Slot Game
 
+## Description
+
+Tạo một game quay số đơn giản, step by step
+Dành cho người mới bắt đầu với Cocos Creator
+Làm quen với các tính năng, thuộc tính cơ bản
+Hiểu về Scene, Component, Prefab, Sprice, Button, Label, Script
+
 ## Index
 
 1. [Tạo dự án](./init-project-cocos.md)
