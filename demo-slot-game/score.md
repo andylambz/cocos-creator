@@ -1,25 +1,34 @@
 
-## Tính điểm
+### 📑 Table of Contents
 
-```
+- [📘 Tạo Node ScoreLabel](#-tạo-node-scorelabel)
+- [📘 Gán ScoreLabel vào GameManager](#-gán-scorelabel-vào-gamemanager)
+- [📘 Run](#-run)
+
+***
+
+Tính điểm
 - Bắt đầu có 0 điểm
 - Nếu hàng giữa có 3 hình giống nhau cộng 10 điểm
-```
 
-### Thêm Node ScoreLabel
+#### 📘 Tạo Node ScoreLabel
 
-```
-- Trong Hierarchy > Right click Canvas > Create > 2D Object > Label
-    - Name: ScoreLabel
-- Chọn node ScoreLabel > component Label
-    - Position: 0 : 250
-    - string: "Kết quả:"
-    - Font Size: 40
-```
+Node CcoreLabel dùng để hiển thị điểm số
 
-### Viết script
+##### 🧱 Tạo Node
 
-Open file SweetSlotGame.ts
+Trong Hierarchy
+Right click Canvas > Create > 2D Object > Label
+- `Name` : `ScoreLabel`
+
+Chọn node `ScoreLabel` > component Label
+- `Position` : 0 : 250
+- `string` : "Kết quả:"
+- `Font Size` : 40
+
+#### 📘 Viết script
+
+Open file `SweetSlotGame.ts`
 
 ```Typescript
 import { _decorator, Component, Node, Prefab, instantiate, Label } from 'cc';
@@ -71,14 +80,12 @@ export class SweetSlotGame extends Component {
 }
 ```
 
-### Gán ScoreLabel vào GameManager
+#### 📘 Gán ScoreLabel vào GameManager
 
-```
-- Chọn node GameManager > Component SweetSlotGame
-    - Score Label: kéo node ScoreLabel vào (map node ScoreLabel và biến tương ứng)
-```
+Chọn node `GameManager` > Component SweetSlotGame
+- `Score Label` : kéo node ScoreLabel vào đây
 
-### Run
+#### 📘 Run
 
 ![create-score-label](assets/photos/score-label/create-score-label.png)
 
@@ -86,4 +93,4 @@ export class SweetSlotGame extends Component {
 
 ***
 
-[Back](index.md)
+🔙 [Back](index.md)

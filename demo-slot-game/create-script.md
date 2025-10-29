@@ -1,19 +1,27 @@
 
-## Tạo script SweetSlotGame
+### 📑 Table of Contents
 
-### Tạo script
+- [📘 Tạo script SweetSlotGame](#-tạo-script-sweetslotgame)
+- [📘 Tạo node GameManager](#-tạo-node-gamemanager)
 
-```
-- Trong cửa sổ Assets, chuột phải vào thư mục assets/scripts (hoặc tạo thư mục mới nếu chưa có)
-- Chọn Create → TypeScript
-- Đặt tên file là SweetSlotGame.ts
-```
+***
+
+#### 📘 Tạo script SweetSlotGame
+
+##### 🧱 Tạo script
+
+> Tạo script `SweetSlotGame.ts`
+
+- Trong cửa sổ Assets, chuột phải vào thư mục `assets/scripts` (hoặc tạo thư mục mới nếu chưa có)
+- Chọn Create > TypeScript
+- Đặt tên file là `SweetSlotGame.ts`
+
 
 ![create-type-script](./assets/photos/create-script/create-type-script.png)
 
-### Viết script
+##### 🧱 Viết script
 
-Mở file SweetSlotGame.ts → thêm nội dung sau:
+Mở file `SweetSlotGame.ts`, thêm nội dung sau:
 
 ```Typescript
 import { _decorator, Component, Node, Prefab, instantiate } from 'cc';
@@ -36,28 +44,31 @@ const cell = this.slotCells[i];
 }
 ```
 
-### Gắn script vào node quản lý
+***
 
-```
-- Trong Hierarchy, tạo một node mới → đặt tên là GameManager
-- Chọn node GameManager → nhấn Add Component → Custom Script → SweetSlotGame
-    - Trong Inspector, bạn sẽ thấy: 
-        - slotCells: mảng các ô slot
-        - symbols: mảng các Prefab biểu tượng kẹo
-```
+#### 📘 Tạo node GameManager
 
-### Gán dữ liệu vào script
+> Gắn script vào node để quản lý sau khi tạo
 
-```
-- Gán slotCells
-    • Kéo từng ô SlotCell trong SlotGrid vào mảng slotCells
-    • Theo thứ tự từ trái sang phải, trên xuống dưới
-- Gán symbols
+- Tạo node `GameManager`
+
+##### 🧱 Add component
+Chọn node GameManager
+Add Component > Custom Script > SweetSlotGame
+Inspector
+- `Slote Cells` : slotCells, mảng các SlotCell
+- `Symbols` : symbols, mảng các Prefab biểu tượng kẹo
+
+##### 📖 Gán dữ liệu vào script
+
+Gán slotCells
+- Kéo từng node `SlotCell` trong `SlotGrid` vào mảng slotCells
+- Theo thứ tự từ trái sang phải, trên xuống dưới
+Gán symbols
     • Kéo các Prefab biểu tượng kẹo vào mảng symbols
-```
 
 ![create-node-game-manager](./assets/photos/create-script/create-node-game-manager.png)
 
 ***
 
-[Back](index.md)
+🔙 [Back](index.md)

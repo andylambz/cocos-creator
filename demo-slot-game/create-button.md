@@ -1,32 +1,41 @@
 
-## Tạo nút "Quay"
+### 📑 Table of Contents
 
-### Tạo nút “Quay” trong Scene
+- [📘 Tạo SpinButton](#-tạo-spinbutton)
 
-```
-- Chuột phải vào Canvas → Create → UI Component → Button
-- Đặt tên node là SpinButton
-- Trong node SpinButton, bạn sẽ thấy có một Label con → đổi nội dung thành “Quay”
-- Chọn node SpintButton/Label > Trong Inspector > component Label
-    - string: "Quay"
-- Chỉnh Position của SpinButton để đặt dưới khung slot (ví dụ: (0, -250))
-```
+***
 
-### Kết nối sự kiện Click của nút “Quay”
+#### 📘 Tạo SpinButton
 
-```
-- Chọn node SpinButton trong Hierarchy
-- Trong Inspector > component Button > Click Events
-- Nhập 1 để thêm 1 event
-    - Cấu hình như sau:
-        - Target: Kéo node GameManager vào đây
-        - Component: Chọn SweetSlotGame
-        - Handler: Chọn hàm spin
+Tạo SpinButton và kết nối sự kiện click
 
+##### 🧱 Tạo Button
+
+Right click Canvas
+Create > UI Component > Button
+- `Name` : `SpinButton`
+
+Trong node `SpinButton`, bạn sẽ thấy có một Label con, đổi nội dung thành “Quay”
+Chọn node `SpintButton/Label`
+Inspector > component Label
+- `string` : Quay
+- Chỉnh Position của `SpinButton` đặt dưới khung slot (ví dụ: (0, -250))
+
+
+##### 📖 Kết nối sự kiện Click
+
+Chọn node SpinButton trong Hierarchy
+Trong Inspector > component Button > Click Events > Thêm 1 event
+Array [0]
+- `Target`: Kéo node GameManager vào đây
+- `Component`: Chọn SweetSlotGame
+- `Handler` : Chọn hàm spin
+
+> 📌 **Note**  
 > Nếu bạn không thấy SweetSlotGame hoặc spin, hãy đảm bảo:
-    - Script đã được gắn vào node GameManager
-    - Hàm spin() được khai báo là public trong script
-```
+> - Script đã được gắn vào node GameManager
+> - Hàm spin() được khai báo là public trong script
+
 
 ![create-button](assets/photos/create-button/create-button.png)
 
@@ -34,4 +43,4 @@
 
 ***
 
-[Back](index.md)
+🔙 [Back](index.md)

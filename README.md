@@ -2,13 +2,13 @@
 
 ## Requirement 
 
-> Cocos creator: 3.8
+Cocos creator: 3.8
 
 ## General
 
-> Create Date: 2025-10-27
-> Last Update: 2025-10-28
-> Author: Andy
+Create Date: 2025-10-27
+Last Update: 2025-10-28
+Author: Andy
 
 ## Description
 
