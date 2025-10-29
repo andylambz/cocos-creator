@@ -48,13 +48,14 @@ const cell = this.slotCells[i];
 
 #### 📘 Tạo node GameManager
 
-> Gắn script vào node để quản lý sau khi tạo
+Dùng để gắn script vào node để quản lý sau khi tạo
 
-- Tạo node `GameManager`
+##### 📖 Tạo node `GameManager`
 
 ##### 🧱 Add component
-Chọn node GameManager
-Add Component > Custom Script > SweetSlotGame
+
+Chọn node GameManager > 
+Add Component > Custom Script > SweetSlotGame >
 Inspector
 - `Slote Cells` : slotCells, mảng các SlotCell
 - `Symbols` : symbols, mảng các Prefab biểu tượng kẹo
@@ -64,8 +65,9 @@ Inspector
 Gán slotCells
 - Kéo từng node `SlotCell` trong `SlotGrid` vào mảng slotCells
 - Theo thứ tự từ trái sang phải, trên xuống dưới
+
 Gán symbols
-    • Kéo các Prefab biểu tượng kẹo vào mảng symbols
+- Kéo các Prefab biểu tượng kẹo vào mảng symbols
 
 ![create-node-game-manager](./assets/photos/create-script/create-node-game-manager.png)
 

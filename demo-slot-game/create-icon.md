@@ -31,7 +31,7 @@ Tìm và tải các hình ảnh PNG kẹo (nền trong suốt) từ các nguồn
 
 ##### 🧱 Tạo Node
 
-Trong cửa sổ Hierarchy
+Trong cửa sổ Hierarchy >
 Right click Canvas > Create > Empty Node
 - `Name` : `CandyNode`
 
@@ -41,12 +41,11 @@ Chọn node `CandyNode`> Inspector
 
 ##### 🧱 Tạo Sprite
 
-Right click `CandyNode`
+Right click `CandyNode` >
 Create > 2D Object > Sprite
 - `Name` : `CandySprite`
 
-Chọn node `CandySprite`
-Inspector 
+Chọn node `CandySprite` >Inspec tor 
 - `Anchor Point` : (0.5, 0.5)
 - `Position` : (0, 0)
 - `Content Size` : 100 x 100

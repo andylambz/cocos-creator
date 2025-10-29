@@ -23,7 +23,7 @@ Right click Canvas > Create > Empty Node
 
 > Thêm Layout cho `SlotGrid` vừa tạo
 
-Inspector
+Chọn node `SlotGrid` > Inspector >
 Add Component > UI > Layout
 - `Type` : GRID
 - `Resize Mode` : CONTAINER
@@ -44,7 +44,7 @@ Add Component > UI > Layout
 
 > Tạo node `SlotCell`
 
-Hierarchy
+Hierarchy >
 Right click Canvas > Create > Empty Node
 - `Name` : `SlotCell`
 - `Anchor Point` : (0.5, 0.5)
@@ -56,12 +56,11 @@ Right click Canvas > Create > Empty Node
 
 > Thêm Sprite vào SlotCell để hiển thị biểu tượng
 
-Right click `SlotCell`
-Create > 2D Object > Sprite
+Right click `SlotCell` >
+Create > 2D Object > Sprite 
 - `Name` : `Symbol`
 
-Chọn node `Symbol`
-Inspector:
+Chọn node `Symbol` > Inspector
 - `Anchor Point` : (0.5, 0.5)
 - `Position` : (0, 0)
 - `ContentSize` : 100 x 100

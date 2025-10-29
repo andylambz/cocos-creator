@@ -2,6 +2,7 @@
 ### 📑 Table of Contents
 
 - [📘 Tạo Node ScoreLabel](#-tạo-node-scorelabel)
+- [📘 Viết script](#-viết-script)
 - [📘 Gán ScoreLabel vào GameManager](#-gán-scorelabel-vào-gamemanager)
 - [📘 Run](#-run)
 
@@ -11,7 +12,7 @@ Tính điểm
 - Bắt đầu có 0 điểm
 - Nếu hàng giữa có 3 hình giống nhau cộng 10 điểm
 
-#### 📘 Tạo Node ScoreLabel
+#### 📘 Tạo node ScoreLabel
 
 Node CcoreLabel dùng để hiển thị điểm số
 
