@@ -1,7 +1,7 @@
 
 ### 📑 Table of Contents
 
-- [📘 Tạo Node ScoreLabel](#-tạo-node-scorelabel)
+- [📘 Tạo node ScoreLabel](#-tạo-node-scorelabel)
 - [📘 Viết script](#-viết-script)
 - [📘 Gán ScoreLabel vào GameManager](#-gán-scorelabel-vào-gamemanager)
 - [📘 Run](#-run)
@@ -12,13 +12,15 @@ Tính điểm
 - Bắt đầu có 0 điểm
 - Nếu hàng giữa có 3 hình giống nhau cộng 10 điểm
 
+***
+
 #### 📘 Tạo node ScoreLabel
 
 Node CcoreLabel dùng để hiển thị điểm số
 
 ##### 🧱 Tạo Node
 
-Trong Hierarchy
+Trong Hierarchy >
 Right click Canvas > Create > 2D Object > Label
 - `Name` : `ScoreLabel`
 
@@ -26,6 +28,8 @@ Chọn node `ScoreLabel` > component Label
 - `Position` : 0 : 250
 - `string` : "Kết quả:"
 - `Font Size` : 40
+
+***
 
 #### 📘 Viết script
 
@@ -81,10 +85,14 @@ export class SweetSlotGame extends Component {
 }
 ```
 
+***
+
 #### 📘 Gán ScoreLabel vào GameManager
 
 Chọn node `GameManager` > Component SweetSlotGame
 - `Score Label` : kéo node ScoreLabel vào đây
+
+***
 
 #### 📘 Run
 

@@ -1,6 +1,8 @@
 
 ### 📑 Table of Contents
 
+- [📘 Tạo scene `SlotGameWithEffectScene`](#-tạo-scene-slotgamewitheffectscene)
+
 ***
 #### 📘 Tạo scene `SlotGameWithEffectScene`
 
